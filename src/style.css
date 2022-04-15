@@ -1,0 +1,126 @@
+.container {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid grey;
+    padding: 50px;
+    max-width: 75%;
+    font-family: roboto;
+  }
+  
+  .searchBar {
+    width: 70%;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    font-size: 20px;
+  }
+  
+  .dayInfo {
+    color: rgb(247, 55, 151);
+    font-size: 25px;
+    width: 45%;
+    line-height: 14px;
+  }
+  
+  .City {
+    display: inline-block;
+    font-size: 38px;
+    color: black;
+    font-weight: bold;
+    width: 45%;
+  }
+  
+  .sunny {
+    width: 75px;
+  }
+  
+  .Weather {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .temp {
+    display: inline-block;
+    width: 45%;
+    height: 150px;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .temper {
+    font-size: 55px;
+  }
+  
+  .weat {
+    font-size: 40px;
+  }
+  
+  .State {
+    border: 2px dotted grey;
+    padding: 10px;
+    margin: 10px;
+    width: 75%;
+  }
+  
+  .minmax {
+    display: inline-block;
+    width: 50%;
+    color: rgba(253, 14, 14, 0.897);
+    font-size: 30px;
+    border-right: 2px dotted rgb(199, 199, 199);
+    margin: 30px;
+    line-height: 35px;
+  }
+  
+  .humid {
+    display: inline-block;
+    width: 35%;
+  
+    color: rgb(39, 135, 245);
+    font-size: 25px;
+    margin: 30px;
+  }
+  
+  .alertt {
+    color: rgb(0, 17, 255);
+    font-size: 25px;
+  }
+  
+  .Fore {
+    width: 15%;
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 10px;
+    font-size: 25px;
+    color: purple;
+  }
+  
+  sup.today {
+    font-size: 35px;
+  }
+  sup.mima {
+    font-size: 20px;
+  }
+  
+  a {
+    color: rgb(0, 217, 255);
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 15px 25px 15px;
+    background: rgb(6, 192, 0);
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: rgb(11, 168, 11);
+  }
+  

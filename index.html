@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <title>
+      Weather Site
+    </title>
+
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input class="searchBar" type="text" placeholder="Search🔍" />
+      </form>
+      <button class="Current">Current</button>
+
+      <div class="dayInfo">
+        <h3 class="Day">
+          Thursday
+        </h3>
+        <h3 class="Date">
+          17 March, 2022
+        </h3>
+        <h3 class="Time">
+          6:15 PM
+        </h3>
+      </div>
+      <div class="Weather">
+        <div class="City">
+          <h1>
+            <span class="h1city">
+              DELHI
+            </span>
+            <img src="images/sunny.png" alt="Sunny Image" class="sunny" />
+          </h1>
+        </div>
+        <div class="temp">
+          <div class="temper">
+            <span class="mainTemp"> 31 </span
+            ><sup class="today"
+              ><a class="mainCelcius"> °C </a>|<a class="mainFahren">
+                °F</a
+              ></sup
+            >
+          </div>
+          <div class="weat">
+            Hazy
+          </div>
+        </div>
+      </div>
+
+      <div class="State">
+        <div class="minmax">
+          Max temperature: <span class="maxTemp"> 35 </span
+          ><sup class="mima"
+            ><a class="maxCelcius"> °C </a>|<a class="maxFahren"> °F</a></sup
+          >
+          <br />
+          Min temperature: <span class="minTemp"> 19 </span
+          ><sup class="mima"
+            ><a class="minCelcius"> °C </a>|<a class="minFahren"> °F</a></sup
+          >
+          <br />
+        </div>
+        <div class="humid">
+          Humidity: <span class="humidity">50% </span>
+          <br />
+
+          Precipitation: <span class="precipiatation">0% </span>
+          <br />
+
+          Wind Speed: <span class="wind">4mph </span>
+        </div>
+      </div>
+
+      <div class="message">
+        <h3 class="alertt">
+          Don't forget your umbrella, it's sunny outside!!
+        </h3>
+      </div>
+      <div class="foredays">
+        <div class="Fore">
+          Monday
+          <br />
+          32°C
+        </div>
+        <div class="Fore">
+          Tuesday
+          <br />
+          32°C
+        </div>
+        <div class="Fore">
+          Wednesday
+          <br />
+          32°C
+        </div>
+        <div class="Fore">
+          Thursday
+          <br />
+          32°C
+        </div>
+        <div class="Fore">
+          Friday
+          <br />
+          32°C
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
