@@ -123,4 +123,10 @@
     cursor: pointer;
     background: rgb(11, 168, 11);
   }
+
+.githubL {
+display: block;
+margin: 0 auto;
+font-size: 20px;
+}
   
